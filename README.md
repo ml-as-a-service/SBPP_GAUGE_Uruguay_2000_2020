@@ -1,5 +1,40 @@
-# SBPP_GAUGE_Uruguay_2000_2020
+# SBPP GAUGE Uruguay 2000 2020
 Evaluación, comparación y visualización de la capacidad de detección de precipitaciones de productos satelitales para Uruguay en el periodo 2000-2020
+
+
+## Data Source.
+Muestra como procesar los datos directamente desde las fuentes.
+
+## DataLake.
+Procesamiento de los 30GB de informacion proveniente de los SBPP.
+
+Procesamiento de los datos RAW de los pluviometros.
+
+Anexo de lat/lon a los dataset de los pluviometros
+
+## Data Ext.
+Agregacion de nuevas features al dataset.
+
+Anexamos la altitud en base a la informacion de SRTM.
+
+## Data Analysis.
+Analisis inicial de los SBPP y Gauges.
+
+Este analisis es previo a la evaluacion de datos perdidos y calidad de informacion.
+
+## Merge SBPP Gauge.
+Unificacion de los datasets de UTE, IMERG, PERSIANN y CHIRPS.
+
+Unificacion de los datasets de INUMET, IMERG, PERSIANN y CHIRPS.
+
+## Report Validation.
+Analisis del desempeño de las mejores pluviomentros.
+
+Las medidas de performance son CC, RMSE, RB y FAR, POD.
+
+
+
+
 
 # Material 
 ## UTE
